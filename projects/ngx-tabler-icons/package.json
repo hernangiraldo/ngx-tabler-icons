@@ -1,0 +1,27 @@
+{
+  "name": "ngx-tabler-icons",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Tabler Icons library for Angular applications",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hernangiraldo/ngx-tabler-icons.git"
+  },
+  "keywords": [
+    "angular",
+    "tabler",
+    "icons",
+    "svg",
+    "library"
+  ],
+  "author": "Hernán Giraldo",
+  "license": "MIT",
+  "peerDependencies": {
+    "@angular/common": "14 - 16",
+    "@angular/core": "14 - 16"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
+  "sideEffects": false
+}

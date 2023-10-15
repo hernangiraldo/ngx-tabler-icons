@@ -10,6 +10,12 @@ At first glance, the library may seem hefty, but it's important to note that it 
 
 ---
 
+## Angular version compatibility
+
+| Angular | ngx-tabler-icons |
+| ------- | ---------------- |
+| 14-16   | 1.0.0            |
+
 ## Acknowledgements
 
 I would like to express our deepest gratitude to the [Tabler Icons](https://tabler-icons.io/) team for creating and providing such a diverse and beautiful set of icons. The elegance and simplicity of Tabler Icons significantly enrich the user experience of our library, making the visual interface more engaging and intuitive.
@@ -73,6 +79,16 @@ _5. If you want to change the default strokeWidth of all the icons, you just nee
   ...
 })
 ```
+
+## To build the icons
+
+If [Tabler Icons](https://tabler-icons.io/) releases a new version of their library with additional icons, follow these steps to update and generate the icons:
+
+1. Visit the Tabler Icons website.
+2. Locate and download the latest JSON file containing the icon data.
+3. Replace the content of the icons.json file with the downloaded JSON data.
+4. Execute the command ./generate-icons.sh in your terminal or command prompt.
+5. Once the command runs successfully, the new icons will be generated and ready for use.
 
 ## Contributing
 
