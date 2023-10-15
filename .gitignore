@@ -42,3 +42,4 @@ testem.log
 Thumbs.db
 
 /projects/ngx-tabler-icons/src/lib/**.component.ts
+/projects/ngx-tabler-icons/src/public-api.ts
