@@ -57,5 +57,6 @@ EOF
   printf "\r[%s%s] %d%%" "$bar" "$spaces" $(( ($progress * 100) / $max_width ))
 done
 
+touch src/public-api.ts
 cp "$temp_file" src/public-api.ts
 rm "$temp_file"
