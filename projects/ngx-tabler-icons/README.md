@@ -13,8 +13,9 @@ At first glance, the library may seem hefty, but it's important to note that it 
 ## Angular version compatibility
 
 | Angular | ngx-tabler-icons |
-| ------- | ---------------- |
+|---------|------------------|
 | 14-16   | 1.0.0            |
+| 17      | 2.x              |
 
 ## Acknowledgements
 
